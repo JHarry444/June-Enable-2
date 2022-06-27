@@ -62,7 +62,6 @@ public class Coins {
 				onePences++;
 				change -= 1;
 			}
-
 		}
 		System.out.println();
 
