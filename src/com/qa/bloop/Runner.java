@@ -18,9 +18,10 @@ public class Runner {
 
 		PersonManager manager = new PersonManager();
 
-		manager.people.add(p);
-		manager.people.add(p2);
+		manager.addPerson(p);
+		manager.addPerson(p2);
 
+		manager.getPeople().clear();
 		Person found = manager.findByName("Jordan");
 		System.out.println(found.getName() + " " + found.getAge() + " " + found.getJobTitle());
 
