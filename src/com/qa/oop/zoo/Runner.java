@@ -13,11 +13,11 @@ public class Runner {
 //		Animal a = new Animal();
 //		a.makeNoise();
 
-		Mammal m = new Mammal(4, true, true, true, true, "Kittens");
-		m.makeNoise();
-		m.sweat();
+//		Mammal m = new Mammal(4, true, true, true, true, "Kittens");
+//		m.makeNoise();
+//		m.sweat();
 
-		System.out.println(m);
+//		System.out.println(m);
 
 		Bat b = new Bat();
 		b.makeNoise();

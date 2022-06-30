@@ -1,6 +1,6 @@
 package com.qa.oop.zoo;
 
-public class Mammal extends Animal {
+public abstract class Mammal extends Animal {
 	public Mammal() {
 		super(); // Animal Line 5
 	}

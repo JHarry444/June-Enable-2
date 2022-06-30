@@ -1,6 +1,6 @@
 package com.qa.oop.zoo;
 
-public class Animal extends Object {
+public abstract class Animal extends Object {
 
 	private int noOfLegs;
 	private boolean canFly;
@@ -23,9 +23,7 @@ public class Animal extends Object {
 		this.diet = diet;
 	}
 
-	public void makeNoise() {
-		System.out.println("bloop");
-	}
+	public abstract void makeNoise(); // every animal can make a noise
 
 	@Override
 	public String toString() {
