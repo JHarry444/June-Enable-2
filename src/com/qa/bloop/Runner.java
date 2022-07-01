@@ -6,7 +6,9 @@ import com.qa.oop.person.PersonManager;
 public class Runner {
 
 	public static void main(String[] args) {
+		Person.latinName = "Homo Superior"; // right
 		Person p = new Person("Jordan", 28, "Trainer");
+		System.out.println(p.latinName); // wrong
 		System.out.println(p.getAge());
 		p.setAge(Integer.MIN_VALUE);
 		System.out.println(p.getAge());
@@ -15,7 +17,7 @@ public class Runner {
 		p.setAge(29);
 		System.out.println(p.getAge());
 		Person p2 = new Person("Andrew", 24, "Trainer");
-
+		System.out.println(p2.latinName);
 		PersonManager manager = new PersonManager();
 
 		manager.addPerson(p);

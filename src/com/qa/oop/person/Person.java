@@ -2,6 +2,8 @@ package com.qa.oop.person;
 
 public class Person {
 
+	public static String latinName = "Home Sapien";
+
 	private String name;
 	private int age;
 	private String jobTitle;
